@@ -41,8 +41,8 @@
     background-size: cover;
     z-index: -1;
   }
-  body.light .background { background-image: url('image/bg-desktop-light.jpg'); }
-  body.dark .background { background-image: url('image/bg-desktop-dark.jpg'); }
+  body.light .background { background-image: url('.image/bg-desktop-light.jpg'); }
+  body.dark .background { background-image: url('.image/bg-desktop-dark.jpg'); }
   
   
   .container {
@@ -198,8 +198,8 @@
     .container { padding: 50px 20px; }
     h1 { font-size: 1.8rem; }
     .background { height: 200px; }
-    body.light .background { background-image: url('image/bg-mobile-light.jpg'); }
-    body.dark .background { background-image: url('image/bg-mobile-dark.jpg'); }
+    body.light .background { background-image: url('.image/bg-mobile-light.jpg'); }
+    body.dark .background { background-image: url('.image/bg-mobile-dark.jpg'); }
     .mobile-only {
       display: flex;
       justify-content: center;
@@ -253,8 +253,8 @@ body.dark { background: var(--dark-bg); color: var(--dark-text); }
   background-size: cover;
   z-index: -1;
 }
-body.light .background { background-image: url('image/bg-desktop-light.jpg'); }
-body.dark .background { background-image: url('image/bg-desktop-dark.jpg'); }
+body.light .background { background-image: url('.image/bg-desktop-light.jpg'); }
+body.dark .background { background-image: url('.image/bg-desktop-dark.jpg'); }
 
 
 .container {
@@ -410,8 +410,8 @@ body.dark .clear-completed:hover { color: var(--dark-text); }
   .container { padding: 50px 20px; }
   h1 { font-size: 1.8rem; }
   .background { height: 200px; }
-  body.light .background { background-image: url('image/bg-mobile-light.jpg'); }
-  body.dark .background { background-image: url('image/bg-mobile-dark.jpg'); }
+  body.light .background { background-image: url('.image/bg-mobile-light.jpg'); }
+  body.dark .background { background-image: url('.image/bg-mobile-dark.jpg'); }
   .mobile-only {
     display: flex;
     justify-content: center;
