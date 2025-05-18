@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Theme setup
     if (localStorage.getItem('theme') === 'dark') {
         body.classList.add('dark');
-        themeIcon.src = '.image/icon-sun.svg';
+        themeIcon.src = 'IMAGES/icon-sun.svg';
     }
 
     // Event Listeners
@@ -212,10 +212,10 @@ document.addEventListener('DOMContentLoaded', function() {
         
         if (body.classList.contains('dark')) {
             localStorage.setItem('theme', 'dark');
-            themeIcon.src = '.image/icon-sun.svg';
+            themeIcon.src = 'IMAGES/icon-sun.svg';
         } else {
             localStorage.setItem('theme', 'light');
-            themeIcon.src = '.image/icon-moon.svg';
+            themeIcon.src = 'IMAGES/icon-moon.svg';
         }
     }
     
